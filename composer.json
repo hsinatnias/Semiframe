@@ -1,0 +1,24 @@
+{
+    "name": "anish/semiframe",
+    "description": "project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anish V M",
+            "email": "anishvm@live.in"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "Semiframe\\":"src/Semiframe"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Semiframe\\Tests\\":"tests/"
+        }
+    }
+}
