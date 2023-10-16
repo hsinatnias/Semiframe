@@ -3,7 +3,7 @@
 
 declare(strict_types=1);
 
-use \PDO;
+use PDO;
 use Semiframe\DatabaseConnection\DatabaseConnectionInterface;
 use Semiframe\DatabaseConnection\Exception\DatabaseConnectionException;
 
