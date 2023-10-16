@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Semiframe\DataMapper;
+namespace Semiframe\LiquidOrm\DataMapper;
 
 use PDO;
 use PDOStatement;
 use Semiframe\DatabaseConnection\DatabaseConnectionInterface;
-use Semiframe\DataMapper\Exception\DataMapperException;
+use Semiframe\LiquidOrm\DataMapper\Exception\DataMapperException;
 use Throwable;
 
 class DataMapper implements DataMapperInterface

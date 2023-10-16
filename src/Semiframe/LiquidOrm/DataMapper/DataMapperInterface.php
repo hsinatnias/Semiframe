@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Semiframe\DataMapper;
+namespace Semiframe\LiquidOrm\DataMapper;
 
 interface  DataMapperInterface
 {

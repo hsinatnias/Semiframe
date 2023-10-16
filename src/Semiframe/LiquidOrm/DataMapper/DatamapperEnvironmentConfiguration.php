@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Semiframe\DataMapper;
+namespace Semiframe\LiquidOrm\DataMapper;
 
-use Semiframe\DataMapper\Exception\DataMapperException;
-use Semiframe\DataMapper\Exception\DataMapperInvalidArgumentException;
+use Semiframe\LiquidOrm\DataMapper\Exception\DataMapperException;
+use Semiframe\LiquidOrm\DataMapper\Exception\DataMapperInvalidArgumentException;
 
 class DataMapperEnvironmentConfiguration
 {
