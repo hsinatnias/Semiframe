@@ -1,16 +1,36 @@
 {
     "name": "anish/semiframe",
-    "description": "project",
+    "description": "PHP framework from scratch and experiment",
+    "keywords": ["frameowrk", "php", "mvc", "Semiframe"],
     "type": "project",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/hsinatnias/Semiframe/issues",
+        "source": "https://github.com/hsinatnias/Semiframe",
+        "wiki": "https://github.com/hsinatnias/Semiframe/wiki"
+
+    },
     "authors": [
         {
             "name": "Anish V M",
-            "email": "anishvm@live.in"
+            "email": "anishvm@live.in",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {},
+    "require": {
+        "php": "7.4.12|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "twig/twig": "^3.1",
+        "symfony/http-foundation": "^5.2@RC",
+        "symfony/yaml": "^5.2@RC"
+
+    },
     "autoload":{
         "psr-4": {
             "Semiframe\\":"src/Semiframe"
